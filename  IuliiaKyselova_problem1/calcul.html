@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      
+       Author: Iuliia Kyselova
+       Date:   09/24/2019
+   
+      -->
+   
+    <link href="calcul.css" rel="stylesheet" />
+    <script src="calcul.js" defer></script>
+  
+</head>
+<body>
+ <div id= "block">      
+    <h1>Problem 1</h1>
+    <div>
+        <label>Num1</label>
+        <input id="num1" type="text" maxlength = "4" size = "4" style="font-size: 1.5em">
+    </div>
+    <br/>
+    
+    <div>
+        <label>Num2</label> 
+        <input id="num2" type="text" maxlength = "4" size = "4" style="font-size: 1.5em">
+    </div>
+    
+     <br/>
+    
+    <input value=" + " onclick="add()" type="button">
+    <input value=" - " onclick="sub()" type="button">
+    <input value=" * " onclick="mul()" type="button">
+    <input value="/" onclick="div()" type="button">  
+ 
+    <br/> 
+    
+    <h3>Result is</h3>
+    <input id="result" type="text" maxlength = "4" size = "4" style="font-size: 1.5em">
+    <input value="clear" onclick="reset()" type="button">   
+     
+    </div>
+</body>
+</html>

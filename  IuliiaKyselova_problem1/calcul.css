@@ -1,0 +1,48 @@
+ @charset"uft-8";
+/*
+
+       Author: Iuliia Kyselova
+       Date:   09/24/2019
+
+   */
+
+
+
+/*Main structural style*/
+html{
+    background-color: aqua;
+    
+}
+div#block{
+    text-align: center;
+    border: 10px solid blue;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    margin:0 auto;
+    width:800px;
+    
+    
+
+    
+}
+label {
+    color: darkblue;
+    font: normal small-caps bold 0.9em/3em
+        Quicksand,Verdana,Geneva,sans-serif;
+   font-size: 1.2em;
+    
+}
+input[type=button]{
+    font-size: 1.1em;
+    background: linear-gradient(45deg,hsl(224, 48%, 56%),hsl(107, 56%, 47%));
+    
+    
+}
+h3{ color: darkblue;
+    font: normal small-caps bold 0.9em/3em
+        Quicksand,Verdana,Geneva,sans-serif;
+   font-size: 1.2em;
+    
+    
+}
