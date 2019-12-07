@@ -1,0 +1,24 @@
+@charset"uft-8";
+/*
+
+       Author: Iuliia Kyselova
+       Date:   09/24/2019
+
+   */
+
+
+
+/*Main structural style*/
+html{
+    background-color: #FFCCFF;
+    
+}
+div#block{
+    text-align: center;
+    border: 10px solid blue;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    margin:0 auto;
+    width:800px;
+}
