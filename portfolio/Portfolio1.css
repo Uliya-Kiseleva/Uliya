@@ -1,0 +1,25 @@
+/* add custom style for home page */
+html{
+    background: url("https://i.ytimg.com/vi/BBXKBB67FcY/maxresdefault.jpg") center no-repeat;
+    background-size: cover;
+    height:100%;
+}
+
+
+h1{
+    font-size: 40px;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+p  {
+    font-size: 40px;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+   
+   text-align: center;
+}
+a{
+     color: red;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="portfolio">
+    <meta name="author" content="Iuliia Kyselova">
+
+    <title> Iuliia Kyselova Portfolio</title>
+
+    <link href="Portfolio.css" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="portfolio1.html">Home</a>
+        <a class="active" href="#about">About</a>
+        <a href="#htmlcss">Works HTML/CSS</a>
+        <a href="#javascript">Works Javascript</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <script>
+        for(var i=0; i<document.querySelectorAll('.topnav a').length; i++){
+            document.querySelectorAll('.topnav a')[i].addEventListener('click', function(){
+                for(var j=0; j<document.querySelectorAll('.topnav a').length; j++){
+                    document.querySelectorAll('.topnav a')[j].className='';
+                };
+                this.className = 'active';
+            });
+        };
+    
+    </script>
+
+    <!-- content -->
+    <div id="aboutMore" class="page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10  col-md-offset-1">
+                    <div class="build title-page">
+                        <h2 class="text-center" id="about">About Me</h2>
+                        <div class="line-title bg-primary"></div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+
+            <div class="row">
+
+                <div class=" clearfix">
+                    <img src="avatar.150x150.jpg" alt="" style="float:left;margin-right:10%;" />
+                    <p style="float:left;width:60%">Hello, I'm Iuliia Kyselova, a Computer Information Systems(CIS) Major at the College of San Mateo. This Fall 2019 semester, I took class CIS 111 class. In this course. I learned HTML, then CSS, and lastly, JavaScript. This portfolio showcases my assignments from the class. This is my first job, but I hope you enjoy the result. I will continue to practice and improve the quality of my work. </p>
+                </div>
+
+            </div>
+            <style>
+                .clearfix:after {
+                    content: " ";
+                    display: table;
+                    clear: both;
+                }
+                
+                .page {
+                    width: 1000px;
+                    margin: 0 auto;
+                }
+            </style>
+
+            <h2 id="htmlcss">Works HTML/CSS</h2>
+
+            <table style="width:100%">
+
+                <tr>
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya///iuliia.kyselova_project1/review/mp_index.html" target="_blank">Assignment 1/Mobile Panini</a>
+                    </td>
+
+                    <td><img src="mp_photo1.png" /></td>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/iuliiakyselova_project2/review/tss_coach.html" target="_blank">Assignment 2/TSS coaches </a></td>
+
+                    <td><img src="coach1.png" /></td>
+
+                </tr>
+
+                <tr>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/Iuliiakyselova_project3_review/review/pc_specials.html" target="_blank">Assignment 3a/March Special</a>
+                    </td>
+
+                    <td><img src="pc_photo7.png" /></td>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/Iuliiakyselova_project3_case1/case1/sp_home.html" target="_blank">Assignment 3b/Slate &amp; Pencil </a></td>
+
+                    <td><img src="sp_topic1.png" /></td>
+
+                </tr>
+
+                <tr>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/iuliiakyselova_project4/review/tf_tips.html" target="_blank">Assignment 4/Parenting Tips</a>
+                    </td>
+
+                    <td><img src="tips.png" /></td>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/IuliiaKyselova_project5/case1/mi_pricing.html" target="_blank">Assignment 5/Marlin Internet </a></td>
+
+                    <td><img src="mi_art.png" /></td>
+
+                </tr>
+
+                <tr>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/IuliiaKyselova_project6/review/rb_customer.html" target="_blank">Assignment 6/Red Ball Pizza form</a>
+                    </td>
+
+                    <td><img src="red%20pizza.jpeg" /></td>
+
+                </tr>
+
+            </table>
+
+            <h2 id="javascript">Works Javascript</h2>
+            <table style="width:100%">
+
+                <tr>
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/IuliiaKyselova_project7/review/tny_july.html" target="_blank">Assignment 7/Tusla Summer Party</a>
+                    </td>
+
+                    <td><img src="tny_banner2.png" /></td>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/IuliiaKyselova_chapter10_review/review/lht_events.html" target="_blank">Assignment 8a/Luman Hall Theater </a></td>
+
+                    <td><img src="theater1.jpg" /></td>
+                </tr>
+                <tr>
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/IuliiaKyselova_chapter10_case1/case1/tc_cart.html" target="_blank">Assignment 8b/Trophy Case Sports</a>
+                    </td>
+
+                    <td><img src="baseball.jpg" /></td>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/ IuliiaKyselova_problem1/calcul.html" target="_blank">Assignment 9a/Calculator </a></td>
+
+                    <td><img src="calc.jpeg" /></td>
+                </tr>
+
+                <tr>
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/IuliiaKyselova_problem2/term.html" target="_blank">Assignment 9b/Thermometer</a>
+                    </td>
+
+                    <td><img src="term.png" /></td>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/IuliiaKyselova_Chapter12review/review/bc_fed.html" target="_blank">Assignment 10/ Keyword List </a></td>
+
+                    <td><img src="fed.png" /></td>
+                </tr>
+
+                <tr>
+
+                    <td><a href="https://uliya-kiseleva.github.io/Uliya/IuliiaKyselova_chapter13_review/review/co_cart.html" target="_blank">Assignment 11/Espresso machine order</a>
+                    </td>
+                    <td><img src="co_espresso.png" /></td>
+
+                </tr>
+
+            </table>
+
+            <p><a href="mailto:iuliiakyselova@my.smccd.edu" id="contact">Have questions? Contact me </a></p>
+        </div>
+    </div>
+</body>
+
+</html>
